@@ -1,1 +1,15 @@
-// Your footer style
+#footer{
+	background: $gray-dark;
+	color: $gray-lighter;
+	padding: 50px 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	a {
+	font-size: 40px;
+	transition: color 0.3s ease;
+	&:hover {
+	color: white;
+	}
+  }
+}
+    

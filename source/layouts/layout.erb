@@ -34,8 +34,8 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "/team.html" do %>
+                <i class="fa fa-users"></i> Team
               <% end %>
             </li>
             <li>
@@ -50,12 +50,22 @@
                 <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn btn-lg">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+    <div class="card" id="footer">
+      <ul class="list-inline">
+        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa fa-github"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  
   </body>
 </html>
